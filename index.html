@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 03</title>
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
     <!-- Google Font Awesome -->
     <script
       src="https://kit.fontawesome.com/da2629b2de.js"
@@ -28,7 +40,7 @@
       };
     </script>
   </head>
-  <body>
+  <body class="font-manrope">
     <header class="px-4 sm:px-8 md:px-16 lg:px-36">
       <!-- Navbar -->
       <nav class="bg-white">
@@ -38,10 +50,10 @@
               <!-- Logo -->
               <a
                 href="#"
-                class="flex items-center text-black font-semibold text-xl"
+                class="flex items-center text-black font-semibold text-3xl"
               >
                 <i
-                  class="bg-lime-500 rounded-lg mr-2 -rotate-45 fa-solid fa-arrow-right"
+                  class="bg-lime-500 rounded-full mr-2 -rotate-45 fa-solid fa-arrow-right"
                 ></i>
                 Rinterio
               </a>
@@ -58,22 +70,22 @@
             <div class="hidden sm:flex sm:items-center sm:space-x-8">
               <a
                 href="#"
-                class="text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                class="text-gray-900 inline-flex items-center px-1 pt-1 text-base font-medium"
                 >Home</a
               >
               <a
                 href="#"
-                class="text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                class="text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-base font-medium"
                 >Services</a
               >
               <a
                 href="#"
-                class="text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                class="text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-base font-medium"
                 >Portfolio</a
               >
               <a
                 href="#"
-                class="text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                class="text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-base font-medium"
                 >Blogs</a
               >
               <a
@@ -93,7 +105,7 @@
               </a>
               <a
                 href="#"
-                class="bg-lime-500 text-black font-semibold py-2 px-4 rounded-full flex items-center"
+                class="bg-lime-500 text-black font-semibold py-2 px-4 rounded-full flex items-center text-lg"
               >
                 Book Consult
                 <i
@@ -185,10 +197,10 @@
                 liveable spaces
               </h1>
               <!-- Description -->
-              <p class="text-gray-600 text-lg">
-                The barn house captivates with its blend of rustic charm and
-                modern sophistication, featuring weathered wood, sleek metal
-                accents.
+              <p class="text-gray-600 text-base">
+                Elevating your lifestyle with modern, functional design. We
+                create spaces that blend aesthetics and practicality, enhancing
+                everyday living.
               </p>
 
               <!-- Service Cards -->
@@ -200,9 +212,9 @@
                     <h2 class="font-semibold text-xl text-gray-800">
                       Commercial
                     </h2>
-                    <p class="text-gray-600">
-                      The barn house captivates with its blend of rustic charm
-                      and modern.
+                    <p class="text-gray-600 text-base">
+                      Transforming commercial spaces into dynamic
+                      environments,drive reflect your brand’s identity.
                     </p>
                   </div>
                 </div>
@@ -213,9 +225,9 @@
                     <h2 class="font-semibold text-xl text-gray-800">
                       Residential
                     </h2>
-                    <p class="text-gray-600">
-                      The barn house captivates with its blend of rustic charm
-                      and modern.
+                    <p class="text-gray-600 text-base">
+                      Crafting personalized homes that blend comfort, style, and
+                      functionality for modern living.
                     </p>
                   </div>
                 </div>
@@ -238,59 +250,60 @@
         <div class="container mx-auto text-center px-8 md:px-16 lg:px-36">
           <div class="mb-6">
             <button
-              class="bg-white text-gray-800 font-medium px-4 py-2 rounded-full inline-flex items-center"
+              class="bg-white text-gray-800 text-base font-medium px-4 py-2 rounded-full inline-flex items-center"
             >
               <span class="mr-2">→</span> How we works
             </button>
           </div>
           <h2 class="text-3xl font-bold mb-4">Our Works Process</h2>
-          <p class="text-gray-600 mb-12">
-            The barn house captivates with its blend of rustic charm and modern
-            sophistication, featuring weathered wood, sleek metal accents.
+          <p class="text-gray-600 mb-12 text-base">
+            Our work process is rooted in collaboration, creativity, and
+            precision, ensuring each project reflects <br />
+            your vision with flawless execution.
           </p>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <!-- card 01 starts -->
-            <div class="bg-pink-100 p-6 rounded-lg text-left">
+            <div class="bg-pink-200 p-6 rounded-lg text-left">
               <div class="mb-4">
                 <img src="assets/concept.png" alt="" />
               </div>
-              <h3 class="text-xl font-semibold mb-2">Concept</h3>
-              <p class="text-gray-700">
-                The barn house captivates with its blend of rustic charm and
-                modern.
+              <h3 class="text-xl font-extrabold mb-2">Concept</h3>
+              <p class="text-gray-700 text-base">
+                Innovative concepts that redefine spaces, merging with
+                functionality for design solutions.
               </p>
             </div>
             <!-- card 2 starts              -->
-            <div class="bg-yellow-100 p-6 rounded-lg text-left">
+            <div class="bg-yellow-200 p-6 rounded-lg text-left">
               <div class="mb-4">
                 <img src="assets/flow-chart.png" alt="" />
               </div>
-              <h3 class="text-xl font-semibold mb-2">Design Process</h3>
+              <h3 class="text-xl font-extrabold mb-2">Design Process</h3>
               <p class="text-gray-700">
-                The barn house captivates with its blend of rustic charm and
-                modern.
+                A design process focused on creativity, precision, and your
+                vision for impeccable results.
               </p>
             </div>
             <!-- card 03 starts -->
-            <div class="bg-green-100 p-6 rounded-lg text-left">
+            <div class="bg-green-200 p-6 rounded-lg text-left">
               <div class="mb-4">
                 <img src="assets/vision.png" alt="" />
               </div>
-              <h3 class="text-xl font-semibold mb-2">Supervision</h3>
-              <p class="text-gray-700">
-                The barn house captivates with its blend of rustic charm and
-                modern.
+              <h3 class="text-xl font-extrabold mb-2">Supervision</h3>
+              <p class="text-gray-700 text-base">
+                Expert supervision ensures every detail meets our high standards
+                for quality and excellence.
               </p>
             </div>
             <!-- card 04 starts -->
-            <div class="bg-blue-100 p-6 rounded-lg text-left">
+            <div class="bg-blue-200 p-6 rounded-lg text-left">
               <div class="mb-4">
                 <img src="assets/budget-planning.png" alt="" />
               </div>
-              <h3 class="text-xl font-semibold mb-2">Budget Planning</h3>
-              <p class="text-gray-700">
-                The barn house captivates with its blend of rustic charm and
-                modern.
+              <h3 class="text-xl font-extrabold mb-2">Budget Planning</h3>
+              <p class="text-gray-700 text-base">
+                Strategic budget planning that maximizes value while maintaining
+                quality and meeting project goals.
               </p>
             </div>
           </div>
@@ -312,9 +325,9 @@
           </div>
           <h2 class="text-3xl font-bold mb-4">Our Latest Portfolio</h2>
           <p class="text-gray-600 mb-12">
-            The barn house captivates with its blend of rustic charm and modern
-            sophistication,<br />
-            featuring weathered wood, sleek metal accents.
+            Explore our latest portfolio showcasing innovative designs, expert
+            craftsmanship, and tailored solutions <br />
+            that bring your vision to life.
           </p>
 
           <div>
@@ -333,13 +346,15 @@
                   />
                 </div>
                 <div class="w-full md:w-8/12 lg:w-9/12">
-                  <h3 class="text-lg font-semibold">Commercial</h3>
+                  <h3 class="text-lg font-extrabold text-gray-600">
+                    Commercial
+                  </h3>
                   <p class="text-gray-600">
-                    The barn house captivates with its blend of rustic charm and
-                    modern. The barn house captivates with its blend of rustic
-                    charm and modern.
+                    Our commercial designs are crafted to enhance brand
+                    presence, boost productivity, and create functional spaces
+                    that meet your business needs and goals.
                   </p>
-                  <a href="#" class="mt-2 text-green-600 flex items-center">
+                  <a href="#" class="mt-2 flex items-center font-extrabold">
                     View Details
                     <i
                       class="text-black bg-lime-500 rounded-lg ml-1 mr-2 -rotate-45 fa-solid fa-arrow-right"
@@ -358,7 +373,7 @@
               </div>
             </div>
           </div>
-          <!-- ---------------------------------- -->
+          <!-- -----Portfolio section starts---- -->
           <div class="container py-4">
             <div class="container mx-auto text-center">
               <div
@@ -385,12 +400,14 @@
                     />
                   </div>
                   <div class="w-full md:w-7/12 text-left">
-                    <h3 class="text-lg font-semibold">Commercial</h3>
+                    <h3 class="text-lg font-extrabold text-gray-600">
+                      Commercial
+                    </h3>
                     <p class="text-gray-600">
-                      The barn house captivates with its blend of rustic charm
-                      and modern.
+                      Transforming commercial spaces into dynamic
+                      environments,drive reflect your brand’s identity.
                     </p>
-                    <a href="#" class="mt-2 text-green-600 flex items-center">
+                    <a href="#" class="mt-2 font-extrabold flex items-center">
                       View Details
                       <i
                         class="text-black bg-lime-500 rounded-lg ml-1 mr-2 -rotate-45 fa-solid fa-arrow-right"
@@ -413,7 +430,97 @@
         </div>
       </section>
 
-      <!-- ......... -->
+      <!-- Faq section starts-->
+      <section
+        class="py-12 container mx-auto text-center px-8 md:px-16 lg:px-36"
+      >
+        <div>
+          <h1 class="text-4xl font-bold text-center mb-8">
+            Frequently Asked Questions
+          </h1>
+
+          <div class="space-y-6">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <button class="w-full text-left">
+                <h2 class="text-xl font-semibold">
+                  1. What services do you offer?
+                </h2>
+              </button>
+              <div class="mt-2 text-gray-600">
+                <p>
+                  We offer a range of services including architectural design,
+                  interior design, landscape design, and project management. Our
+                  team is dedicated to creating personalized and innovative home
+                  designs that meet your unique needs.
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <button class="w-full text-left">
+                <h2 class="text-xl font-semibold">
+                  2. How long does the design process take?
+                </h2>
+              </button>
+              <div class="mt-2 text-gray-600">
+                <p>
+                  The design process typically takes 4-6 weeks, depending on the
+                  complexity of the project. We ensure that each stage of the
+                  process is handled with care and precision to deliver the best
+                  results.
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <button class="w-full text-left">
+                <h2 class="text-xl font-semibold">
+                  3. Can I make changes to the design?
+                </h2>
+              </button>
+              <div class="mt-2 text-gray-600">
+                <p>
+                  Yes, we encourage client input and collaboration throughout
+                  the design process. We will work with you to make any
+                  necessary changes to ensure the final design meets your
+                  expectations.
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <button class="w-full text-left">
+                <h2 class="text-xl font-semibold">
+                  4. Do you offer 3D renderings?
+                </h2>
+              </button>
+              <div class="mt-2 text-gray-600">
+                <p>
+                  Yes, we provide 3D renderings to give you a realistic view of
+                  the final design. This allows you to visualize the space and
+                  make any adjustments before construction begins.
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <button class="w-full text-left">
+                <h2 class="text-xl font-semibold">
+                  5. How do I get started with your services?
+                </h2>
+              </button>
+              <div class="mt-2 text-gray-600">
+                <p>
+                  To get started, simply contact us to schedule a consultation.
+                  We will discuss your project requirements, budget, and
+                  timeline to develop a customized plan that suits your needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Form section starts -->
       <section
         class="py-8 bg-cover bg-center"
         style="background-image: url('assets/bg.jpg')"
@@ -422,20 +529,18 @@
           <!-- Title Section -->
           <div class="mb-8">
             <button
-              class="bg-green-100 text-green-700 font-medium px-4 py-2 rounded-full inline-flex items-center mb-4"
+              class="bg-lime-200 text-black font-medium px-4 py-2 rounded-full inline-flex items-center mb-4"
             >
               <span class="mr-2">→</span> Let's Connect
             </button>
             <h2 class="text-3xl font-bold mb-4">Let's Discuss Next Project</h2>
             <p class="text-gray-600">
-              The barn house captivates with its blend of rustic charm and
-              modern sophistication, featuring weathered wood, sleek metal
-              accents.
+              Ready to bring your vision to life? Let’s discuss your next
+              project <br />
+              and create something extraordinary together.
             </p>
           </div>
-
-          <!-- Form Section -->
-          <form class="p-8 rounded-lg shadow-lg max-w-3xl mx-auto space-y-4">
+          <form class="p-8 rounded-lg max-w-3xl mx-auto space-y-4">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
                 type="text"
@@ -478,44 +583,44 @@
       </section>
     </main>
     <footer class="bg-gray-900 py-8 text-center">
-        <div class="container mx-auto">
-          <!-- Logo and Title -->
-          <div class="mb-4">
-            <h1 class="text-2xl font-bold text-white">
-              <i
-              class=" text-black bg-lime-500 rounded-full ml-1 mr-2 -rotate-45 fa-solid fa-arrow-right"
+      <div class="container mx-auto">
+        <!-- Logo and Title -->
+        <div class="mb-4">
+          <h1 class="text-2xl font-bold text-white">
+            <i
+              class="text-black bg-lime-500 rounded-full ml-1 mr-2 -rotate-45 fa-solid fa-arrow-right"
             ></i>
-              Rinterio
-            </h1>
-            <p class="text-gray-400 mt-2">
-              The barn house captivates with its blend of rustic charm and
-              modern sophistication, featuring weathered wood, sleek metal
-              accents.
-            </p>
-          </div>
-
-          <!-- Navigation Links -->
-          <nav class="flex justify-center space-x-8 text-white mb-8">
-            <a href="#" class="hover:text-green-500">Home</a>
-            <a href="#" class="hover:text-green-500">Services</a>
-            <a href="#" class="hover:text-green-500">Portfolio</a>
-            <a href="#" class="hover:text-green-500">Blogs</a>
-            <a href="#" class="hover:text-green-500">Contact Us</a>
-          </nav>
-
-          <!-- Call to Action Button -->
-          <div>
-            <a
-              href="#"
-              class="inline-flex items-center bg-green-500 text-white font-semibold py-3 px-8 rounded-full hover:bg-green-600"
-            >
-              Book Consult
-              <i
-                class="text-black bg-lime-500 rounded-lg ml-1 mr-2 -rotate-45 fa-solid fa-arrow-right"
-              ></i>
-            </a>
-          </div>
+            Rinterio
+          </h1>
+          <p class="text-gray-400 mt-2">
+            Rinterio Design House crafts bespoke interiors, blending innovation
+            with functionality to create <br />
+            spaces that inspire and elevate living.
+          </p>
         </div>
+
+        <!-- Navigation Links -->
+        <nav class="flex justify-center space-x-8 text-white mb-8">
+          <a href="#" class="hover:text-green-500">Home</a>
+          <a href="#" class="hover:text-green-500">Services</a>
+          <a href="#" class="hover:text-green-500">Portfolio</a>
+          <a href="#" class="hover:text-green-500">Blogs</a>
+          <a href="#" class="hover:text-green-500">Contact Us</a>
+        </nav>
+
+        <!-- Call to Action Button -->
+        <div>
+          <a
+            href="#"
+            class="inline-flex items-center bg-lime-300 text-black font-semibold py-3 px-8 rounded-full hover:bg-green-600"
+          >
+            Book Consult
+            <i
+              class="text-white bg-black rounded-full ml-1 mr-2 -rotate-45 fa-solid fa-arrow-right"
+            ></i>
+          </a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
